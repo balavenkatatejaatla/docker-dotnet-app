@@ -1,0 +1,15 @@
+{
+	  "profiles": {
+		      "FunctionApp": {
+			            "commandName": "Project",
+				          "commandLineArgs": "--port 7067",
+					        "launchBrowser": false,
+						      "environmentVariables": {
+							              "FUNCTIONS_WORKER_PROCESS_HOST": "localhost", 
+								              "FUNCTIONS_WORKER_PROCESS_PORT": "7071",
+									              "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+										            }
+											        }
+												  }
+}
+
